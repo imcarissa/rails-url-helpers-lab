@@ -1,3 +1,5 @@
+<!-- app/views/students/index.html.erb-->
+
 <div>
   <% @students.each do |student| %>
     <div><%= link_to student.to_s, student_path(student) %></div>
